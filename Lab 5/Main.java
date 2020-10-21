@@ -19,8 +19,8 @@ public class Main {
 
 		for (Duck d : myDucks) {
 			d.display();
-			d.flyBehaviour.fly();
-			d.quackBehaviour.quack();
+			d.performFly();;
+			d.performQuack();;
 		}
 
 	}
