@@ -1,6 +1,6 @@
-public class TabDecorator extends PrinterDecorator {
+public class TabPrinter extends PrinterDecorator {
 
-    public TabDecorator(Printer printer) {
+    public TabPrinter(Printer printer) {
         super(printer);
     }
 
