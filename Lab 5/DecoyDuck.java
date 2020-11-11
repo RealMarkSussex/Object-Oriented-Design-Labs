@@ -1,4 +1,4 @@
-public class DecoyDuck extends Duck{
+public class DecoyDuck extends Duck {
 
 	public DecoyDuck() {
 		flyBehaviour = new FlyNoWay();
