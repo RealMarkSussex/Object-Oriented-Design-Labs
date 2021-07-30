@@ -15,20 +15,8 @@ public class Lecturer extends Person {
         this.officeLocation = officeLocation;
     }
 
-    public int getStaffId() {
-        return staffId;
-    }
-
-    public void setStaffId(int staffId) {
-        this.staffId = staffId;
-    }
-
     public OfficeLocation getOfficeLocation() {
         return officeLocation;
-    }
-
-    public void setOfficeLocation(OfficeLocation officeLocation) {
-        this.officeLocation = officeLocation;
     }
 
     @Override
